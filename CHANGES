@@ -1,10 +1,39 @@
 ==================================================
-Changes from 2012-09-15 00:00:00 +0000 to present.
+Changes from 2012-09-21 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.1.0 at 2013-09-15 13:46:13 +0000
+version 0.1.1 at 2013-09-21 08:10:34 +0000
 ------------------------------------------
+
+  Change: 0d546f48b16280c1abbcfc046f760d5a9c2f353c
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-21 10:10:19 +0000
+
+    Release Acme-constant 0.1.1. 
+
+  Change: 4a9266d9edc838e7337fae90828514978df91dbb
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-21 10:09:45 +0000
+
+    Change error messages to be in Perl-style, and add diagnostics. 
+
+  Change: 0eb944c3f28b22ed4a1686e563df41e6cb4772fa
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-21 09:41:41 +0000
+
+    Support OLD Perl versions by returning value after croak.
+
+    Perl isn't clever enough to notice croak throws exception and thinks
+    it has to return a value. Now fake value is returned as lvalue - the
+    only way to access it however is modifying `Carp::croak` to not throw
+    an exception - however, it's not supported. 
+
+  Change: a7e6cc7c742b3e713ea8258304e8c0e9f3ddd3ca
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-21 09:26:43 +0000
+
+    Make interpolation work in Perls below 5.18. 
 
   Change: 1a10863ec5c706a1c58a9b03c892a19599cd4b25
   Author: Konrad Borowski <glitchmr@myopera.com>

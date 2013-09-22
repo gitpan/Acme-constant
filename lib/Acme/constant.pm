@@ -1,6 +1,6 @@
 package Acme::constant;
 {
-  $Acme::constant::VERSION = '0.1.1';
+  $Acme::constant::VERSION = '0.1.2';
 }
 use strictures 1;
 use Carp ();
@@ -41,7 +41,7 @@ sub generate_constant {
         # Because of symbol table modifications, I have to allow
         # symbolic references.
         no strict qw(refs);
-        *{"$package::$name"} = $constant;
+        *{"${package}::$name"} = $constant;
     }
 }
 

@@ -1,10 +1,22 @@
 ==================================================
-Changes from 2012-09-21 00:00:00 +0000 to present.
+Changes from 2012-09-22 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.1.1 at 2013-09-21 08:10:34 +0000
+version 0.1.2 at 2013-09-22 06:37:52 +0000
 ------------------------------------------
+
+  Change: 96ad1d77ddf6cfc5f3be53e08eb5b61adc49b339
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-22 08:37:44 +0000
+
+    Release Acme-constant 0.1.2. 
+
+  Change: 35e6edcbd8e45fa03d0b6e05ae93c77c424b690d
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-22 08:37:25 +0000
+
+    Fix old Perl versions properly. 
 
   Change: 0d546f48b16280c1abbcfc046f760d5a9c2f353c
   Author: Konrad Borowski <glitchmr@myopera.com>

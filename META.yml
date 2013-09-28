@@ -16,6 +16,7 @@ meta-spec:
 name: Acme-constant
 requires:
   Carp: 0
+  perl: 5.014
   strict: 0
   strictures: 1
-version: 0.1.2
+version: 0.1.3

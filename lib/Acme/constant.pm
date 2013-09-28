@@ -1,7 +1,8 @@
 package Acme::constant;
 {
-  $Acme::constant::VERSION = '0.1.2';
+  $Acme::constant::VERSION = '0.1.3';
 }
+use 5.014;
 use strictures 1;
 use Carp ();
 

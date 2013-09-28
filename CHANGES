@@ -1,10 +1,25 @@
 ==================================================
-Changes from 2012-09-22 00:00:00 +0000 to present.
+Changes from 2012-09-28 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.1.2 at 2013-09-22 06:37:52 +0000
+version 0.1.3 at 2013-09-28 12:28:26 +0000
 ------------------------------------------
+
+  Change: fd789bce43df3bade8f01da74e30f015be536128
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-28 14:28:21 +0000
+
+    Release Acme-constant 0.1.3. 
+
+  Change: 4cc72556880ae14eaaf622bcf00aa1c22f17475b
+  Author: Konrad Borowski <glitchmr@myopera.com>
+  Date : 2013-09-28 14:26:44 +0000
+
+    Force Perl v5.14.
+
+    Until I find out "Bizarre copy of ARRAY in aassign", don't support
+    lower Perl versions. 
 
   Change: 96ad1d77ddf6cfc5f3be53e08eb5b61adc49b339
   Author: Konrad Borowski <glitchmr@myopera.com>
